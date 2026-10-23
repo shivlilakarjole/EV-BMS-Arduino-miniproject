@@ -1,4 +1,4 @@
-<img width="816" height="745" alt="image" src="https://github.com/user-attachments/assets/32a8d357-9224-4776-b835-e85b46f3b294" /># EV-BMS-Arduino-miniproject
+# EV-BMS-Arduino-miniproject
 “BMS for EV with real-time monitoring and thermal protection using Arduino UNO”
 # BMS for EV with Real-Time Charge Monitoring and Thermal Fire Protection
 
@@ -54,8 +54,9 @@ This project builds a low-cost, real-time BMS to detect these conditions and pro
 
 Three sensors (voltage, current, temperature) feed analog signals to the Arduino UNO. The Arduino drives two outputs: the LCD for live display, and the protection switch that connects or disconnects the battery from the load.
 
+### Circuit Diagram
 
-
+<img width="816" height="745" alt="image" src="https://github.com/user-attachments/assets/32a8d357-9224-4776-b835-e85b46f3b294" />
 
 ### Pin Connections
 
