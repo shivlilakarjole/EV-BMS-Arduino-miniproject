@@ -1,4 +1,4 @@
-# EV-BMS-Arduino-miniproject
+<img width="816" height="745" alt="image" src="https://github.com/user-attachments/assets/32a8d357-9224-4776-b835-e85b46f3b294" /># EV-BMS-Arduino-miniproject
 “BMS for EV with real-time monitoring and thermal protection using Arduino UNO”
 # BMS for EV with Real-Time Charge Monitoring and Thermal Fire Protection
 
@@ -51,13 +51,11 @@ This project builds a low-cost, real-time BMS to detect these conditions and pro
 
 ## System Architecture
 
-![Block Diagram](images/block_diagram.png)
 
 Three sensors (voltage, current, temperature) feed analog signals to the Arduino UNO. The Arduino drives two outputs: the LCD for live display, and the protection switch that connects or disconnects the battery from the load.
 
-## Circuit Diagram
 
-![Circuit Diagram](images/circuit_diagram.jpg)
+
 
 ### Pin Connections
 
@@ -82,9 +80,7 @@ Temperature      T = (ADC / 1023) x 5 x 100        (LM35, 10 mV/°C)
 
 ---
 
-## Hardware Setup
 
-![Hardware Setup](images/hardware_setup.jpg)
 
 ---
 
@@ -98,9 +94,6 @@ Temperature      T = (ADC / 1023) x 5 x 100        (LM35, 10 mV/°C)
 6. If any limit is crossed, the Arduino switches the load off, shows a fault message (`OV FAULT`, `OC FAULT`, `OT FAULT`) and raises the alarm.
 7. The loop repeats every 500 ms.
 
-### Flowchart
-
-![Flowchart](images/flowchart.jpg)
 
 ## Protection Thresholds
 
@@ -139,7 +132,7 @@ Temperature      T = (ADC / 1023) x 5 x 100        (LM35, 10 mV/°C)
 - Accuracy: within ±0.5% for voltage, ±2% for current, ±0.5 °C for temperature.
 - Stable operation over 30 minutes of repeated charge/discharge cycling.
 
-![LCD Output](images/lcd_output.jpg)
+
 
 ### Testing Procedure
 
@@ -168,11 +161,7 @@ Source code: [`src/bms_main/bms_main.ino`](src/bms_main/bms_main.ino)
 
 ---
 
-## Documentation
 
-- [Project Report](docs/project_report.pdf)
-- [Circuit Diagram (PDF)](docs/circuit_diagram.pdf)
-- [Project Code (PDF)](docs/project_code.pdf)
 
 ---
 
